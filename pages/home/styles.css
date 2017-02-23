@@ -1,0 +1,25 @@
+.bgImage {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+}
+
+.bodyBG body { background: none; }
+
+.jumbotron {
+  margin-top: 50px;
+  background: rgba(249,249,249,.8);
+  border: none;
+}
+
+.links {
+  margin-top: 20px;
+}
+
+.btnWrapper{
+  margin-top: 10px !important;
+  height: 47px;
+}

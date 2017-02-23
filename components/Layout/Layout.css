@@ -1,0 +1,36 @@
+.content {
+  margin: 0 auto;
+  width: 100%;
+  height: 1000px;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.wrapper {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapperWithSidebar {
+  padding-left: 280px;
+}
+
+.sidebarWrapper {
+  left: 280px;
+  margin-left: -280px;
+  width: 280px;
+  background: .CCC;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+}
+
+.contentWrapper {
+  width: 100%;
+}

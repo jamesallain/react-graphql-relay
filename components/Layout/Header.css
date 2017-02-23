@@ -1,0 +1,46 @@
+.header {
+  position: relative;
+  background-color: #1f2533;
+  height: 40px;
+  flex-direction: row;
+  display: flex;
+}
+
+.MenuWrapper {
+  flex-grow: 1;
+}
+
+.Menu{
+  flex-direction: row;
+  display: flex;
+  height: 100%
+}
+
+.MenuItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MenuItem a {
+  display: inline-block;
+  margin-right: 4px;
+  background: #282f42;
+  padding: 5px 11px;
+}
+
+.MenuItem a {
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 600;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.MenuItem:hover a {
+  opacity: 1;
+}
+
+.HeaderSearch {
+  align-self: center
+}

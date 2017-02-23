@@ -1,0 +1,121 @@
+@charset "utf-8";
+@import "~fixed-data-table/dist/fixed-data-table.min.css";
+@import "~@blueprintjs/core/dist/blueprint.css";
+@import "~@blueprintjs/table/dist/table.css";
+@import "~font-awesome/css/font-awesome.min.css";
+
+a, img {
+  border: none;
+  outline: none;
+}
+
+body {
+  margin: 0px;
+  font-family: arial;
+  min-width: 900px;
+  font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+  color: #596178;
+}
+
+h1, h2, h3, h4, h5, h6, .h {
+  font-family: 'Oxygen', Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #5c6a7b
+}
+
+.row {
+  margin-left: 0px;
+  margin-right: 0px
+}
+
+.light {
+  background: #ffffff;
+  color: #596178;
+}
+
+.light h1, .light h2, .light h3, .light h4, .light h5, .light h6, .light .h {
+  color: #596178;
+}
+
+.pt-button:not([class*="pt-intent-"]) {
+  color: #596178;
+}
+
+.pt-menu-header > h6 {
+  font-size: 12px;
+}
+
+.pt-tab-list {
+  border-bottom: 1px solid #e8ebec;
+  border-top: 1px solid #e8ebec;
+}
+
+.dark {
+  background: #282F42;
+  color: #ffffff;
+}
+
+.dark h1, .dark h2, .dark h3, .dark h4, .dark h5, .dark h6, .dark .h {
+  color: #ffffff;
+}
+
+.dark .pt-menu {
+  background: none;
+  color: inherit;
+}
+
+.dark .pt-menu-header > h6 {
+  color: #849cb9;
+}
+
+.dark .pt-menu-item::before, .dark .pt-menu-item::after {
+  color: #849cb9;
+}
+
+.dark .pt-menu-item:not(.pt-disabled):hover, .dark .pt-submenu > .pt-popover-open > .pt-menu-item:not(.pt-disabled) {
+    background: #1f2533;
+}
+
+.dark :focus {
+    outline: rgb(59, 69, 95) auto 2px;
+}
+
+.sidebar {
+  width: 220px;
+  padding: 10px 0;
+  flex-shrink: 0;
+}
+
+.sidebar .pt-menu {
+  background: none;
+  color: inherit;
+  border-radius: 0;
+  padding: 10px 0;
+  margin-right: 20px;
+}
+
+.sidebar .pt-menu-item {
+  padding: 6px 20px;
+  margin: 5px 0px;
+  border-radius: 0 15px 15px 0;
+}
+
+
+.icon-green::before {
+  color: #15B371 !important;
+}
+
+
+.icon-orange::before {
+  color: #D9822B !important;
+}
+
+
+.icon-red::before {
+  color: #C23030 !important;
+}
+
+.wrapper {
+  padding: 15px;
+}

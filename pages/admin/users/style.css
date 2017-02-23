@@ -1,0 +1,48 @@
+.formStyle{
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 50px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.formStyle h3, .formStyle h4{
+  margin-bottom: 30px;
+}
+
+.formStyle h4{
+  font-size: 14px;
+}
+
+
+.formStyle label{
+    display: block;
+    margin: 0px 0px 15px 0px;
+}
+
+.formStyle h3,.formStyle h4{
+  text-transform: inherit;
+}
+
+.formStyle input{
+  width:50%;
+}
+
+.formStyle label > span{
+      width: 300px;
+      font-weight: bold;
+      float: left;
+      padding-top: 8px;
+      padding-right: 5px;
+}
+
+.divmain
+{
+  padding: 20px 20px;
+}
+
+.btnadduser{
+  margin-bottom: 15px;
+}
